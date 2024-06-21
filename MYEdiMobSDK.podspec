@@ -28,9 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhulonghaigit/MYEdiMobSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'MYEdiMobSDK/Classes/**/*'
+  #s.source_files = 'MYEdiMobSDK/Classes/**/*'
+  s.frameworks = 'CoreGraphics','Security', 'WebKit'
+  s.libraries = 'c++'
+  s.vendored_frameworks = 'MYEdiMobSDK/Frameworks/EdiMobSDK.framework'
   
   # s.resource_bundles = {
   #   'MYEdiMobSDK' => ['MYEdiMobSDK/Assets/*.png']
@@ -39,4 +42,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load'], 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
+  
+  s.dependency 'WechatOpenSDK_UnPay'
+  s.dependency 'SDWebImage'
+  
 end

@@ -1,0 +1,6 @@
+framework module Pods_MYEdiMobSDK_Example {
+  umbrella header "Pods-MYEdiMobSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

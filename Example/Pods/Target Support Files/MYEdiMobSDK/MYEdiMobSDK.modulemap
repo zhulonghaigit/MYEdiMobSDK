@@ -1,0 +1,6 @@
+framework module MYEdiMobSDK {
+  umbrella header "MYEdiMobSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

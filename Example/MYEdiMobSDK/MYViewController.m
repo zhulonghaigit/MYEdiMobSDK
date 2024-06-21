@@ -7,6 +7,7 @@
 //
 
 #import "MYViewController.h"
+#import <EdiMobSDK/EdiMobSDK.h>
 
 @interface MYViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = UIColor.redColor;
+    
+    NSLog(@"sdkVersion = %@",[[EMSDKConfig shareInstance] sdkVersion]);
 }
 
 - (void)didReceiveMemoryWarning

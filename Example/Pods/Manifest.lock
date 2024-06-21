@@ -1,0 +1,52 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MYEdiMobSDK (0.1.0):
+    - SDWebImage
+    - WechatOpenSDK_UnPay
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - Specta (1.0.7)
+  - WechatOpenSDK_UnPay (1.8.7.1)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - MYEdiMobSDK (from `../`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - SDWebImage
+    - Specta
+    - WechatOpenSDK_UnPay
+
+EXTERNAL SOURCES:
+  MYEdiMobSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MYEdiMobSDK: cd3904da3a50930ade5afb2a955f795920d3918f
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  WechatOpenSDK_UnPay: 676bbc44d7309dce90697c2426f5b67304f42a2a
+
+PODFILE CHECKSUM: affea8c5bbe155700f4e8022d703957b56fbbb23
+
+COCOAPODS: 1.14.3
