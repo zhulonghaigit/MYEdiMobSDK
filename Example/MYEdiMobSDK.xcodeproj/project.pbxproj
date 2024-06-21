@@ -66,7 +66,7 @@
 		CB3D8ED18144E01C3088BE6C /* Pods-MYEdiMobSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYEdiMobSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-MYEdiMobSDK_Example/Pods-MYEdiMobSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D215449CAFBDA153C12317C8 /* Pods-MYEdiMobSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYEdiMobSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-MYEdiMobSDK_Example/Pods-MYEdiMobSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E7A48C621C78BA630A9997C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F8FDECC4DE5D46240B7FFBC2 /* MYEdiMobSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYEdiMobSDK.podspec; path = ../MYEdiMobSDK.podspec; sourceTree = "<group>"; };
+		F8FDECC4DE5D46240B7FFBC2 /* MYEdiMobSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYEdiMobSDK.podspec; path = ../MYEdiMobSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
